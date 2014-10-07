@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{F7CA4042-2C5E-4821-87D1-964234949044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cpp", "cpp", "{2599D3C5-45A3-4FD8-82DF-6FC4DB215A54}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SequentialSearchST", "python\SequentialSearchST\SequentialSearchST.pyproj", "{776903C6-47C4-41A3-9D30-D2C5871717AF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RedBlackTree", "python\RedBlackTree\RedBlackTree.pyproj", "{4F427F42-A902-48BB-A06B-35531FC59131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{776903C6-47C4-41A3-9D30-D2C5871717AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776903C6-47C4-41A3-9D30-D2C5871717AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F427F42-A902-48BB-A06B-35531FC59131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F427F42-A902-48BB-A06B-35531FC59131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{776903C6-47C4-41A3-9D30-D2C5871717AF} = {F7CA4042-2C5E-4821-87D1-964234949044}
+		{4F427F42-A902-48BB-A06B-35531FC59131} = {F7CA4042-2C5E-4821-87D1-964234949044}
+	EndGlobalSection
+EndGlobal
