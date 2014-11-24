@@ -1,4 +1,0 @@
-Algorithm
-=========
-
-My Algorithm Practicing

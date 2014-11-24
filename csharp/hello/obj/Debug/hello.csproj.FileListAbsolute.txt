@@ -1,1 +1,0 @@
-C:\Users\Ruohang\Documents\Algorithm\csharp\hello\bin\Debug\hello.exe.config
