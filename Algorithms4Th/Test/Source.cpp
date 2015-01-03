@@ -1,16 +1,11 @@
 #include<cstdio>
+#include"..\LibraryCPP\Console.h"
 
-inline __int64 GetCPUTickCount()
-{
-	_asm
-	{
-		rdtsc;
-	}
-}
+using namespace Vonng;
 
 int main()
 {
-	auto z = GetCPUTickCount();
-	printf("%d", z);
+	Console::Write(L"Test");
+	printf("Hello,World");
 
 }
