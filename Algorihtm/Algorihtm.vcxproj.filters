@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{ba645e17-a029-4b72-9696-9c51e4b15dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{9d7102e2-315b-4a7f-ab5b-52f312ec096d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dirver">
+      <UniqueIdentifier>{9031606c-434d-4788-a96d-f2835edc0a28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchTest.h">
+      <Filter>Dirver</Filter>
+    </ClInclude>
+    <ClInclude Include="VCounter.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="SortTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Dirver</Filter>
+    </ClCompile>
+    <ClCompile Include="VTimer.h">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchTest.cpp">
+      <Filter>Dirver</Filter>
+    </ClCompile>
+    <ClCompile Include="Matlab.h">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.h">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SortTest.cpp">
+      <Filter>Dirver</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
